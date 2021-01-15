@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+}
+
+.text{
+    /* border: 2px solid red; */
+    font-size: 20px;
+    margin: 150px auto;
+    align-items: center;
+    text-align: center;
+    padding-top: 165px;
+    box-sizing: border-box;
+    /* border-radius: 10px; */
+    background-image: url(./images/color-full-image.jpeg);
+    /* background-repeat:space; */
+    background-size: 100% 100%;
+    height:420px ;
+    width: 550px;
+}
+
+.text h1{
+    margin-bottom: 15px;
+}
+
+button{
+    font-size: 20px;
+    margin-top:20px;
+    margin-left: 10px;
+    margin-right: 5px;
+    color: white;
+    background-color: black;
+}
+
+.text p{
+    margin-top: 5px;
+}
