@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -5,6 +6,7 @@
 
 body{
     display: flex;
+    
 }
 
 .text{
@@ -25,17 +27,20 @@ body{
 
 .text h1{
     margin-bottom: 15px;
+    font-family: 'Indie Flower', cursive;
 }
 
 button{
     font-size: 20px;
-    margin-top:20px;
+    margin-top:10px;
     margin-left: 10px;
     margin-right: 5px;
     color: white;
     background-color: black;
+    font-family: 'Indie Flower', cursive;
 }
 
 .text p{
     margin-top: 5px;
+    font-size:25px;
 }
