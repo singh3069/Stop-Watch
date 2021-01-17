@@ -1,27 +1,37 @@
-var ID = 0;
+var ID = "00";
 // var ED = 0;
-var seconds = 0;
-var minutes = 0;
-var hours = 0;
+var seconds = "0";
+var minutes = "0";
+var hours = "0";
 
 function printime(){
-    document.getElementById("second").innerHTML=seconds
-    document.getElementById("minute").innerHTML=minutes
-    document.getElementById("hour").innerHTML=hours
+    document.getElementById("second").innerHTML=doubleDigit(seconds);
+    document.getElementById("minute").innerHTML=doubleDigit(minutes);
+    document.getElementById("hour").innerHTML=doubleDigit(hours);
     if(seconds==60){
         minutes++;
-        seconds=0;
+        seconds=00;
     }
 
     if(minutes==60){
         hours++;
-        minutes=0;
+        minutes=00;
 
     }
 
 
     seconds++;
 }
+
+
+function doubleDigit(num) {
+    if(num<10){
+        return "0" + num;
+    }else{
+        return num;
+    }
+}
+
 
 
 function start(){
@@ -33,9 +43,9 @@ function stop(){
 
 function resett (){
     stop();
-    minutes=0;
-    seconds=0;
-    hours=0;
+    minutes=00;
+    seconds=00;
+    hours=00;
     document.getElementById("hour").textContent="00"
     document.getElementById("second").textContent="00"
     document.getElementById("minute").textContent="00"

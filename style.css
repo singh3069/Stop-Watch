@@ -11,7 +11,7 @@ body{
 
 .text{
     /* border: 2px solid red; */
-    font-size: 20px;
+    /* font-size: 20px; */
     margin: 150px auto;
     align-items: center;
     text-align: center;
@@ -31,7 +31,7 @@ body{
 }
 
 button{
-    font-size: 20px;
+    font-size:17px;
     margin-top:10px;
     margin-left: 10px;
     margin-right: 5px;
@@ -39,9 +39,13 @@ button{
     background-color: black;
     font-family: 'Indie Flower', cursive;
     cursor: pointer;
+    border: none;
+    padding: 3px;
+    border-radius: 10px;
 }
 
 .text p{
-    margin-top: 5px;
-    font-size:25px;
+    margin-top: 15px;
+    margin-bottom:5px;
+    font-size:32px;
 }
